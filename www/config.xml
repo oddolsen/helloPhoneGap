@@ -41,6 +41,7 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" /> 
 
     <!-- Core plugins -->
+        <preference value="14" name="android-minSdkVersion"/>
         <plugin name="cordova-plugin-battery-status" spec="~1.1.1" source="npm"/>
         <plugin name="cordova-plugin-camera" spec="~2.1.1" source="npm"/>
         <plugin name="cordova-plugin-media-capture" spec="~1.2.0" source="npm"/>
